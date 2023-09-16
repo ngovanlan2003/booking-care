@@ -1,0 +1,91 @@
+.doctor-extra-infor-container {
+    margin-left: 25px;
+    .content-up {
+        margin-bottom: 15px;
+        border-bottom: 1px solid #eee;
+        .heading-address {
+            text-transform: uppercase;
+            color: #666;
+            margin: 5px 0;
+            font-weight: bold;
+        }
+
+        .clinic {
+            font-weight: 600;
+            margin: 5px 0;
+
+        }
+
+        .address {
+            margin: 10px 0;
+            text-transform: uppercase;
+        }
+    }
+
+    .content-down {
+        margin-top: 10px;
+
+        .price-detail {
+            .price-item {
+                text-transform: uppercase;
+                color: #666;
+                margin: 5px 0;
+                font-weight: bold;
+            }
+
+            .detail {
+                color: #45c3d2;
+                font-size: 16px;
+                cursor: pointer;
+            }
+        } 
+        .heading {
+            text-transform: uppercase;
+            color: #666;
+            margin: 5px 0;
+            font-weight: bold;
+        }
+        .heading-price {
+            margin-top: 15px;
+            background-color: #f8f8f8;
+            border: 1px solid #eee;
+            padding: 5px;
+
+            .item {
+                font-size: 14px;
+                display: flex;
+                justify-content: space-between;
+                .item-left {
+
+                }
+
+                .item-right {
+                    font-size: 15px;
+                }
+            }
+
+            
+        }
+
+        .price-description {
+            font-size: 13px;
+            color: #666;
+            margin: 6px 0;
+        }
+
+        .payment {
+            background-color: #eee;
+            font-size: 15px;
+            padding: 10px 5px;
+        }
+
+        .hiden-price {
+            color: #45c3d2;
+            cursor: pointer;
+            font-size: 16px;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.manage-specialty-container {
+    padding: 0 20px;
+    .ms-title {
+        text-align: center;
+        margin: 16px 0;
+        text-transform: uppercase;
+        color: black;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .add-new-specialty {
+        .btn-save-specialty {
+            border: none;
+            outline:none;
+            background-color: blue;
+            padding: 6px 30px;
+            border-radius: 4px;
+            color: white;
+            margin-top: 20px;
+
+        }
+    }
+}

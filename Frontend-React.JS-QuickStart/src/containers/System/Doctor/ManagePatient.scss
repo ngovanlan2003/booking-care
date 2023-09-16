@@ -1,0 +1,53 @@
+div._loading_overlay_wrapper {
+  position: unset;
+
+  ._loading_overlay_overlay {
+    z-index: 1000000;
+  }
+}
+
+.manage-patient-container {
+    .m-p-title {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .m-p-body {
+        margin: 10px 30px;
+
+        .m-p-table {
+            table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+              }
+              
+              td, th {
+                border: 1px solid black;
+                text-align: left;
+                padding: 8px;
+              }
+              
+              tr:nth-child(even) {
+                background-color: #dddddd;
+              }
+
+              .btn-confirm {
+                outline: none;
+                border-radius: 4px;
+                border: none;
+                cursor: pointer;
+                color: black;
+                padding: 5px 15px;
+                margin: 0 5px;
+              }
+
+              .btn-confirm {
+                background-color: orange;
+              }
+        }
+    }
+}

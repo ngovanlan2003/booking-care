@@ -1,0 +1,25 @@
+.prewview-img-container {
+    display: flex;
+    flex-direction: column;
+    .label-upload {
+        padding: 5px 10px;
+        cursor: pointer;
+        background-color: chartreuse;
+        color: black;
+        border-radius: 4px;
+    
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+
+    .preview-img {
+        height: 50px;
+        width: 100%;
+        border: 1px solid red;
+        background: center center no-repeat;
+        background-size: contain;
+        cursor: pointer;
+    }
+}
+    

@@ -1,0 +1,190 @@
+.slick-prev {
+    z-index: 100;
+    left: -15px !important;
+    border: 1px solid green !important;
+    height: 44px !important;
+    width: 48px !important;
+
+    background: white !important;
+    border: 2px solid grey !important;
+
+    &:hover {
+        background: rgb(215, 212, 212) !important;
+    }
+
+}
+
+// .slick-prev::before {
+//     content: "\e257" !important;
+//     color: red !important;
+// }
+
+.slick-next {
+    z-index: 100;
+    right: -15pxs !important;
+    border: 1px solid green !important;
+    height: 44px !important;
+    width: 48px !important;
+    background: white !important;
+    border: 2px solid grey !important;
+
+    &:hover {
+        background: rgb(215, 212, 212) !important;
+
+    }
+}
+
+.slick-disabled {
+    display: none !important;
+}
+// .slick-next::before {
+//     content: "\e258" !important;
+// }
+
+.slick-prev::before,
+.slick-next::before {
+    font-family: FontAwesome !important;
+    color: red !important;
+}
+
+
+.section-share {
+
+    &.section-outstanding-doctor {
+        background: #f5f5f5;
+    }
+
+    &.section-about {
+        margin: 0 100px;
+        height: 500px !important;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+
+        .section-about-header {
+            padding: 12px 0;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .section-about-content {
+            display: flex;
+            gap: 15px;
+            width: 100%;
+            .content-left {
+                width: 60%;
+                iframe {
+                    width: 100%;
+                }
+            }
+
+            .content-right {
+                width: 40%;
+                text-align: justify;
+                font-style: italic;
+            }
+        }
+    }
+
+        .section-body {
+            .section-customize {
+                padding: 0 10px;
+                .bg-img {
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-color: #eee;
+                    height: 150px;
+                    width: 100%;
+
+                   
+
+                    &.section-medical-facility {
+                        width: 120px;
+                        height: 150px;
+                    }
+
+                    &.section-outstanding-doctor {
+                        // background-image: url("../../assets/images/OutStandingDoctor/doctor.jpg");
+                        width: 120px;
+                        height: 120px;
+                        border-radius: 50%;
+                    }
+
+                    &.section-hanbook {
+                        background-image: url("../../assets/images/hannbook/camnang.png");
+                    }
+                }
+            }
+    
+        }
+}
+
+.section-share {
+    height: 330px;
+    background: #f5f5f5;
+
+    .section-container {
+        // display: flex;
+        margin: 0 100px;
+        flex-direction: column;
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            height: 60px;
+            margin-bottom: 20px;
+            padding-top: 20px;
+
+            h2 {
+                font-size: 23px;
+                font-weight: 600;
+
+                
+            }
+
+            button {
+                background: #ebebeb;
+                text-transform: uppercase;
+                display: inline-block;
+                padding: 10px 15px;
+                color: #282e41;
+                border: none;
+                outline: none;
+                font-size: 13px;
+                &:hover {
+                    background: yellow;
+                }
+            }
+        }
+        
+        
+       
+    }
+    
+    
+}
+
+.section-outstanding-doctor {
+    .customize-border {
+        border: 1px solid grey;
+        .outer-bg {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.home-footer {
+    text-align: center;
+    padding-top: 10px;
+  
+    p {
+        padding-right: 3px;
+        a {
+            margin-right: 3px;
+            text-decoration: none;
+        }
+    }
+   
+}
